@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Header from "../components/Header";
 import Colors from "../constants/Colors";
+import CategoriesListHome from "../components/CategoriesListHome"
 
 
 
@@ -15,6 +16,7 @@ const HomeScreen = () => {
                titleText="Hyderabad >"
                screen="home"
             />
+            <CategoriesListHome />
             <StatusBar style="auto" backgroundColor={Colors.primaryColor1} />
         </View>
     );

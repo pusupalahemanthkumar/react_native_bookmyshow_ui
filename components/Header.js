@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
         height: StatusBar.currentHeight + 70,
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
     },
     headerLeft: {
 

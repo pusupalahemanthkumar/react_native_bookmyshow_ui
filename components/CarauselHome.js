@@ -55,6 +55,7 @@ const CarauselHome = (props) => {
     return (
         <>
             <Animated.FlatList
+                style={{ maxHeight: 200 }}
                 data={imageData}
                 renderItem={rendercarauselItem}
                 horizontal
@@ -74,6 +75,7 @@ const CarauselHome = (props) => {
 const styles = StyleSheet.create({
     container: {
         height: 200,
+        maxHeight: 200,
     },
     image: {
         width: '100%',

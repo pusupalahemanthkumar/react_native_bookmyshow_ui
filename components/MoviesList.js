@@ -80,15 +80,17 @@ const MoviesList = (props) => {
 const styles = StyleSheet.create({
     movieContainer: {
         width: 220,
-        height: 420,
+        height: 380,
+        maxHeight:380,
         marginHorizontal:10,
         marginVertical:10,
         justifyContent:'center',
         alignItems:'center',
+        elevation:10,
     },
     movieImageContainer: {
         width: 220,
-        height: 400,
+        height: 360,
     },
     image: {
         width: '100%',

@@ -47,9 +47,9 @@ const CategoriesListHome = () => {
 
 const styles = StyleSheet.create({
     categoryContainer: {
-        paddingVertical: 20,
+        paddingVertical:10,
         paddingHorizontal: 10,
-        maxHeight:100,
+        maxHeight:80,
     },
     categoryItem: {
         marginHorizontal:20,

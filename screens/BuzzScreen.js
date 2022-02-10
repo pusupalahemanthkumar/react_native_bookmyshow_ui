@@ -2,11 +2,18 @@ import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
+import Header from "../components/Header"
+import Colors from "../constants/Colors";
+
 const BuzzScreen = () => {
     return (
         <View style={styles.screen}>
-            <Text>BuzzScreen</Text>
-            <StatusBar style="auto" />
+             <Header
+               title="BUZZ"
+               titleText="Discover what's trending in entertainment >"
+               screen="buzz"
+            />
+            <StatusBar style="auto" backgroundColor={Colors.primaryColor1} />
         </View>
     );
 }
@@ -14,9 +21,6 @@ const BuzzScreen = () => {
 const styles = StyleSheet.create({
     screen: {
         flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
     },
 });
 

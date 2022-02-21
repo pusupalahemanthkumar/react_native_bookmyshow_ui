@@ -79,23 +79,23 @@ const MoviesList = (props) => {
 
 const styles = StyleSheet.create({
     movieContainer: {
-        width: 220,
-        height: 380,
+        width: 160,
+        height: 300,
         maxHeight:380,
-        marginHorizontal:10,
+        marginHorizontal:8,
         marginVertical:10,
         justifyContent:'center',
         alignItems:'center',
         elevation:10,
     },
     movieImageContainer: {
-        width: 220,
-        height: 360,
+        width: 160,
+        height: 280,
     },
     image: {
         width: '100%',
         height: '100%',
-        resizeMode: 'cover',
+        resizeMode:'contain',
         borderRadius:10,
     },
     title:{

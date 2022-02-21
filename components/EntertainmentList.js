@@ -114,14 +114,14 @@ const EntertainmentList = (props) => {
 
 const styles = StyleSheet.create({
     entertainmentContainer: {
-        height: 400,
-        maxHeight: 400,
+        height: 350,
+        maxHeight: 350,
         justifyContent: 'space-between',
         // alignItems: 'stretch',
     },
     entertainmentItem: {
         flex: 1,
-        width: 200,
+        width: 150,
         margin: 10,
         borderRadius:17,
         elevation:10,

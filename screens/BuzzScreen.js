@@ -1,20 +1,22 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View,ScrollView } from 'react-native';
 
 import Header from "../components/Header"
 import Colors from "../constants/Colors";
+import BuzzHeaderScrollList from '../components/BuzzHeaderScrollList';
 
 const BuzzScreen = () => {
     return (
-        <View style={styles.screen}>
+        <ScrollView style={styles.screen}>
              <Header
                title="BUZZ"
                titleText="Discover what's trending in entertainment >"
                screen="buzz"
             />
+            <BuzzHeaderScrollList />
             <StatusBar style="auto" backgroundColor={Colors.primaryColor1} />
-        </View>
+        </ScrollView>
     );
 }
 

@@ -5,6 +5,8 @@ import { StyleSheet, Text, View,ScrollView } from 'react-native';
 import Header from "../components/Header"
 import Colors from "../constants/Colors";
 import BuzzHeaderScrollList from '../components/BuzzHeaderScrollList';
+import BuzzTopicsList from '../components/BuzzTopicsList';
+import BuzzTopicCard from '../components/BuzzTopicCard';
 
 const BuzzScreen = () => {
     return (
@@ -15,6 +17,8 @@ const BuzzScreen = () => {
                screen="buzz"
             />
             <BuzzHeaderScrollList />
+            <BuzzTopicsList />
+            <BuzzTopicCard />
             <StatusBar style="auto" backgroundColor={Colors.primaryColor1} />
         </ScrollView>
     );
